@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bulb_timepass.css">
+</head>
+<body>
+<marquee direction="right" onMouseOver="this.stop()">
+	<h2>Click the light bulb to turn on/off the light.</h2>
+</marquee>
+<img src="pic_bulboff.jpg" id="bulbimg" onclick="changeimg()">
+<h3>Tap me</h3>
+<script type="text/javascript">
+	function changeimg(){
+		var img = document.getElementById('bulbimg');
+		if(img.src.match("bulbon")){
+			img.src = "pic_bulboff.jpg";
+		}
+		else{
+			img.src = "pic_bulbon.jpg";
+		}
+	}
+</script>
+</body>
+</html>

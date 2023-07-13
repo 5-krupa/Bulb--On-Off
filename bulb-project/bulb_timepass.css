@@ -1,0 +1,18 @@
+
+
+body{
+	background-color: black;
+}
+	.img{
+	height:300px;
+	width:200px;
+	margin-left: 600px !important;
+	margin-top: 900px;
+}
+h2{
+	color: white;
+}
+h3{
+	color: white;
+	padding-left: 20px;
+}
